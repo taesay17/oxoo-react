@@ -16,6 +16,9 @@ export default function HomePage() {
           <h1 className="title-big">
             Музей общества <span className="gradient-text">ОХОО!</span>
           </h1>
+          <h1 className="title-big">
+  TEST Музей общества <span className="gradient-text">ОХОО!</span>
+</h1>
 
           <p className="subtitle-big">
             Исследуй три мира — Семья, Труд и Профессии через цифровое пространство и живые истории.
