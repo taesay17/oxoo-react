@@ -1,0 +1,40 @@
+.page {
+  padding: 60px 40px;
+}
+
+.islands-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.islands-list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.island-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  color: #111;
+  transition: 0.3s;
+}
+
+.island-card:hover {
+  transform: translateY(-4px);
+}
+
+.island-detail-page h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.island-img {
+  width: 100%;
+  height: 180px;       /* фиксированная высота — можно менять */
+  object-fit: cover;   /* обрезает аккуратно, без искажений */
+  border-radius: 12px; /* скругление углов по желанию */
+  display: block;
+}

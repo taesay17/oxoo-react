@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  background: #f6efe6;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #222;
+}
+
+.hero {
+  padding: 120px 60px;
+  background-image: url("/hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+  color: white;
+}
+
+.primary {
+  background: #C46A3D;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  margin-right: 12px;
+}
+
+.secondary {
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: transparent;
+  border: 2px solid #EABA69;
+  color: white;
+}
