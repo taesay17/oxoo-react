@@ -1,0 +1,119 @@
+.about-wrapper {
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* ======= ПАРАЛЛАКС-ФОН ======= */
+.parallax-bg {
+  position: fixed;
+  top: 0; left: 0;
+  width: 120%;
+  height: 120%;
+  background: radial-gradient(circle at 30% 20%, #2b325a, #0b0f18);
+  transform: translateZ(0);
+  z-index: -3;
+}
+
+/* ======= 3D CANVAS ======= */
+.about-3d {
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  opacity: 0.65;
+  filter: blur(0.8px);
+}
+
+/* ======= ОСНОВА ======= */
+.about-page {
+  padding: 100px 50px;
+  max-width: 950px;
+  margin: auto;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+/* ======= ПАРАЛЛАКС-АНИМАЦИИ ======= */
+.fade-block {
+  opacity: 0;
+  transform: translateY(25px);
+  animation: fadeIn 1.2s ease forwards;
+  animation-delay: 0.2s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ======= FAQ ======= */
+.faq-item {
+  border-bottom: 1px solid #444;
+  padding: 14px 0;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.faq-answer {
+  margin-top: 8px;
+  opacity: 0.85;
+}
+
+/* ======= Партнёры ======= */
+.partner-logos img {
+  width: 110px;
+  margin: 15px;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.partner-logos img:hover {
+  opacity: 1;
+  transform: translateY(-4px);
+}
+
+/* ======= Контактная форма ======= */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+}
+
+.contact-form button {
+  background: #4a90e2;
+  color: #fff;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  background: #3b78c0;
+}
+
+/* ======= Юридический футер ======= */
+.legal-footer {
+  margin-top: 40px;
+  opacity: 0.7;
+  font-size: 14px;
+  text-align: center;
+}

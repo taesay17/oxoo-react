@@ -1,0 +1,33 @@
+.artifacts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* карточки крупнее */
+  gap: 24px;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.artifact-card {
+  width: 100%; /* карточка теперь занимает весь доступный размер */
+  padding: 16px;
+  border-radius: 14px;
+  background: #ffffff15;
+  backdrop-filter: blur(8px);
+  text-align: center;
+  text-decoration: none;
+  color: #999;
+  transition: 0.25s;
+}
+
+.artifact-card img {
+  width: 220px;           /* увеличиваем фото */
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto 12px;
+}
+
+.artifact-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+}

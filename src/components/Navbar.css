@@ -1,0 +1,70 @@
+/* === SOLID ELECTRO NAVBAR === */
+
+.navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  background: #0F172A;   /* ПЛОТНЫЙ dark-indigo, инновационный */
+  border-bottom: 1px solid rgba(56, 189, 248, 0.2); /* neon aqua line */
+}
+
+.nav-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 16px 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ЛОГО */
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+  text-decoration: none;
+
+  color: #38BDF8; /* Aqua neon */
+}
+
+/* Ссылки */
+.nav-links a {
+  margin-left: 26px;
+
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+
+  color: #E2E8F0; /* холодный soft blue-grey */
+  transition: 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #38BDF8; /* Aqua neon */
+}
+
+.nav-links a.active {
+  color: #38BDF8;
+  font-weight: 600;
+}
+
+/* КНОПКА "Купить билет" */
+.ticket-btn {
+  margin-left: 32px;
+  padding: 10px 20px;
+
+  background: #2563EB;   /* Electric blue */
+  color: white !important;
+
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+
+  transition: 0.2s ease;
+}
+
+.ticket-btn:hover {
+  background: #1E3A8A; /* deep electric */
+}
