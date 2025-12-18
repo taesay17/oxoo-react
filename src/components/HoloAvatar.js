@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import { Canvas, useFrame, useLoader } from "@react-three/fiber";
 import { TextureLoader } from "three";
-import { OrbitControls } from "@react-three/drei";
 
 function HoloFace({ img }) {
   const texture = useLoader(TextureLoader, img);
