@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/oxoo-react/static/css/main.49fbcbd8.css",
+    "main.js": "/oxoo-react/static/js/main.e3107d14.js",
+    "index.html": "/oxoo-react/index.html",
+    "main.49fbcbd8.css.map": "/oxoo-react/static/css/main.49fbcbd8.css.map",
+    "main.e3107d14.js.map": "/oxoo-react/static/js/main.e3107d14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49fbcbd8.css",
+    "static/js/main.e3107d14.js"
+  ]
+}
