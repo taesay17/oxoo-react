@@ -2,7 +2,7 @@ export const ARTIFACTS = [
   {
     id: "a1",
     title: "Традиционная люлька (бешик)",
-    image: `${process.env.PUBLIC_URL}/images/beshik.jpg`,
+    image: `${process.env.PUBLIC_URL}/images/beshik.jpg`, // fix path for GitHub Pages
     description: "Деревянная люлька, использующаяся в кыргызских семьях поколениями.",
     region: "Нарын",
     category: "family",
